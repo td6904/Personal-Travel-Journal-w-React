@@ -25,4 +25,17 @@ export default [
     imageUrl:
       "https://images.pexels.com/photos/7216952/pexels-photo-7216952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
+  {
+    id: 3,
+    title: "Chachapoyas",
+    location: "Peru",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/Chachapoyas,+P%C3%A9rou/@-6.2181624,-77.9007918,13z/data=!3m1!4b1!4m6!3m5!1s0x91b6ab0f0b1d8553:0x361b2aaeb18057df!8m2!3d-6.2301547!4d-77.8708478!16zL20vMDd4NDM4",
+    startDate: "December 2019",
+    endDate: "December 2019",
+    description:
+      "Chachapoyas is a city in northern Peru at an elevation of 2,335 meters (7,661 ft). The city has a population of 32,026 people (2017). Situated in the mountains far from the Peruvian coast, Chachapoyas remains fairly isolated from other regions of Peru. It is served by buses to Chiclayo and Cajamarca, and flights to domestic locations from Chachapoyas Airport.",
+    imageUrl:
+      "https://m.psecn.photoshelter.com/img-get/I00008Km4jc6xaF8/s/1200/I00008Km4jc6xaF8.jpg",
+  },
 ];
