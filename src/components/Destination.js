@@ -11,7 +11,7 @@ export default function Destination(props) {
             <img className="pin" src={Pin} alt="pin" width="10px" />
             {props.location}
           </h4>
-          <p>
+          <p className="date-map-details">
             <a className="link" href={props.googleMapsUrl}>View on Google Maps</a>
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function Destination(props) {
           </b>
         </p>
         <br />
-        <p>{props.description}</p>
+        <p className="description">{props.description}</p>
       </div>
     </div>
   );

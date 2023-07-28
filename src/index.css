@@ -29,7 +29,7 @@ header img {
 }
 
 .cover-photo {
-  width: 200px;
+  width: 35%;
   padding-right: 20px;
   border-radius: 25px 0 0 25px;
   margin-bottom: 20px;
@@ -46,8 +46,35 @@ header img {
 .mini-header {
   display: flex;
   float: left;
+  align-items: center;
 }
 
 .title {
   font-weight: bolder;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 635px) {
+  .cover-photo {
+    width: 100%;
+  }
+
+  .full-card {
+    flex-direction: column;
+  }
+
+  .cover-photo {
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  .nav-title {
+    font-size: 17pt;
+  }
+
+  .date-map-details {
+    font-size: 8pt;
+  }
 }
