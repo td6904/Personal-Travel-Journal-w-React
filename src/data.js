@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     title: "The Blue Mountains",
@@ -39,3 +39,5 @@ export default [
       "https://m.psecn.photoshelter.com/img-get/I00008Km4jc6xaF8/s/1200/I00008Km4jc6xaF8.jpg",
   },
 ];
+
+export default data;
